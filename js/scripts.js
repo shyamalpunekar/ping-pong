@@ -22,7 +22,7 @@ $(document).ready(function() {
     event.preventDefault();
     var inputNumber = parseInt($("#inputNumber").val());
     var output = pingPong(inputNumber);
-      for(index = 0; index <= inputNumber; index++){
+      for(index = 1; index <= inputNumber; index++){
         $("#displayOutput").append("<li>" + output[index] + "</li>");
       }
 
