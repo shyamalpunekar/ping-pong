@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid" id="grocery">
+      <form id="grocery-store" >
+        <div class="form-group">
+          <h2>What would you like from the store?</h2>
+          <label for="item1"></label>
+          <input type="text" name="name" id="item1" value="">
+        </div>
+        <div class="form-group">
+          <label for="item2"></label>
+          <input type="text" name="name" id="item2" value="">
+        </div>
+        <div class="form-group">
+          <label for="item3"></label>
+          <input id ="item3" type="text" name="name" value="">
+        </div>
+        <div class="form-group">
+          <label for="item4"></label>
+          <input id="item4" type="text" name="name" value="">
+        </div>
+        <div class="form-group">
+          <label for="item5"></label>
+          <input id="item5" type="text" name="name" value="">
+        </div>
+        <button type="submit" name="button" class="btn btn-success">Checkout</button>
+      </form>
+      <div id="grocery-list">
+        <h1>Grocery List</h1>
+        <h3>Please pick up the following:</h3>
+        <ul class="checkout-items"></ul>
+      </div>
+    </div>
+  </body>
+</html>
