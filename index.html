@@ -10,29 +10,32 @@
   </head>
   <body>
     <div class="header">
-      <img id="bouncing" src="img/ball-image1.jpeg" alt="ping pong ball" />
+      <img id="ball" src="img/ball-image.jpeg" alt="ping pong ball" />
     </div>
     <div class="navbar navbar-light bg-faded justify-content-between">
         <div class="navbar-header">
           <a href="#" class="navbar-brand"></a>
         </div>
         <ul class="nav navbar-nav">
-          <li class= "active"><img id="bat" src="img/ping-pong.png" alt="bat icon" /></li>
+          <li class= "active"><img id="mini-ball" src="img/ping-pong.png" alt="mini-ball and bat icon" /></li>
           <li class= "active"><a>Let's Play</a></li>
           <li class= "active" id="gameRules"><a href="#">Rules</a></li>
           <li class= "active" id="About"><a href="#">About</a></li>
         </ul>
       </div>
-    <div class="container-fluid">
+      <div class="container">
+       <div class="page-header">
+         <h1>Ping Pong</h1>
+       </div>
+      <div class="container-fluid">
+        <div class="well">
+          <form id="gameplay" >
+            <div class="form-group">
+              <label for="inputNumber"></label>
+              <input type="number" name="name" min="1" id="inputNumber" required="" placeholder="Numbers only!">
+            </div>
 
-      <div class="well">
-        <form id="gameplay" >
-          <div class="form-group">
-            <label for="inputNumber"></label>
-            <input type="text" name="name" id="inputNumber" required="" placeholder="Numbers only!">
-          </div>
-
-          <button type="submit" name="button" class="btn btn-success">Ping Pong!!!</button>
+          <button type="submit" name="button" class="btn btn-success navbar-btn">Ping Pong!!!</button>
         </form>
       </div>
       <div id="display">

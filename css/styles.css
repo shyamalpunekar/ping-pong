@@ -6,12 +6,19 @@ body{
   background-color:  #66ffcc;
 }
 
-img{
+#ball{
   height: 30%;
   width: 100%;
+  border-style: solid;
+  border-width: 50px 1px 0px 1px;
+  border-color: #808080;
 }
 
-#bat {
+#mini-ball {
   width: auto;
   height: 50px;
+}
+
+h1{
+  color: blue;
 }
