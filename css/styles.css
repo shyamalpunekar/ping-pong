@@ -30,7 +30,7 @@ h1{
 }
 
 #gameRules{
-  color: #000099;
+  color: #ccccff;
 }
 
 .about:visited{
@@ -41,10 +41,10 @@ h3{
   text-decoration: underline;
 }
 
-#rules-text{
+/*#rules-text{
   font-weight: bold;
   color: #b3ffff;
-}
+}*/
 
 .about{
   color: #b3ffff;
