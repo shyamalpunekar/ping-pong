@@ -30,3 +30,7 @@ h1{
 h3{
   text-decoration: underline;
 }
+
+#rules-text{
+  font-weight: bold;
+}
