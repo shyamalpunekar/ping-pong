@@ -36,10 +36,11 @@ _Specs from Ping Pong
 
 ## Setup/Installation Requirements
 
-* _Create a local version of ping-pong
-* _clone repository from github at url: https://github.com/shyamalpunekar/ping-pong.git
-* _launch index.html file in the browser of choice_
-* _git clone https://github.com/shyamalpunekar/ping-pong
+* Create a copy of ping-pong https://github.com/shyamalpunekar/ping-pong to web browser.
+* Open browser.
+* clone repository from github at url: https://github.com/shyamalpunekar/ping-pong.git
+* Or launch index.html file in the browser of choice
+
 
 
 _{The cloning will create the img source directory with required jpg files, in addition to index.html.}_
