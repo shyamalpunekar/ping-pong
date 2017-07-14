@@ -3,9 +3,9 @@
 var pingPong = function(inputNumber) {
 var playOutcome = [];
   for(index = 0; index <= inputNumber; index++){
-    if(index % 3 === 0){
+    if(index % 3 === 0 && index % 15 !== 0){
       playOutcome.push("Ping");
-    } else if (index % 5 === 0) {
+    } else if (index % 5 === 0 && index % 15 !== 0) {
       playOutcome.push("Pong");
     } else if (index % 15 === 0) {
       playOutcome.push("Ping-Pong");
