@@ -1,6 +1,7 @@
 #display{
   display: none;
   color: #b3ffff;
+  font-family: sans-serif
 }
 
 body{
@@ -27,10 +28,12 @@ body{
 
 h1{
   color: #b3ffff;
+  font-family: sans-serif
 }
 
 #gameRules{
   color: #ccccff;
+  font-family: sans-serif
 }
 
 .about:visited{
@@ -39,12 +42,14 @@ h1{
 
 h3{
   text-decoration: underline;
+  font-family: sans-serif
 }
 
 @media screen and (max-width: 768px) and (min-width: 600px) {
 	body {
 		background-color: black;
 		color: green;
+    font-family: sans-serif;
 	}
 }
 
@@ -62,8 +67,9 @@ h3{
   color: #b3ffff;
   display: none;
   margin-left: 20px;
+  font-family: sans-serif;
 }
 
 .about:hover{
-  color: red;
+  color: #ff4da6;
 }
