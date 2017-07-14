@@ -22,3 +22,11 @@ body{
 h1{
   color: blue;
 }
+
+#rules{
+  color: #000099;
+}
+
+h3{
+  text-decoration: underline;
+}
