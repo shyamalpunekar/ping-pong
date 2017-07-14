@@ -1,0 +1,17 @@
+#display{
+  display: none;
+}
+
+body{
+  background-color:  #66ffcc;
+}
+
+img{
+  height: 30%;
+  width: 100%;
+}
+
+#bat {
+  width: auto;
+  height: 50px;
+}

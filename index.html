@@ -9,35 +9,36 @@
     <title></title>
   </head>
   <body>
-    <div class="container-fluid" id="grocery">
-      <form id="grocery-store" >
-        <div class="form-group">
-          <h2>What would you like from the store?</h2>
-          <label for="item1"></label>
-          <input type="text" name="name" id="item1" value="">
+    <div class="header">
+      <img id="bouncing" src="img/ball-image1.jpeg" alt="ping pong ball" />
+    </div>
+    <div class="navbar navbar-light bg-faded justify-content-between">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"></a>
         </div>
-        <div class="form-group">
-          <label for="item2"></label>
-          <input type="text" name="name" id="item2" value="">
-        </div>
-        <div class="form-group">
-          <label for="item3"></label>
-          <input id ="item3" type="text" name="name" value="">
-        </div>
-        <div class="form-group">
-          <label for="item4"></label>
-          <input id="item4" type="text" name="name" value="">
-        </div>
-        <div class="form-group">
-          <label for="item5"></label>
-          <input id="item5" type="text" name="name" value="">
-        </div>
-        <button type="submit" name="button" class="btn btn-success">Checkout</button>
-      </form>
-      <div id="grocery-list">
-        <h1>Grocery List</h1>
-        <h3>Please pick up the following:</h3>
-        <ul class="checkout-items"></ul>
+        <ul class="nav navbar-nav">
+          <li class= "active"><img id="bat" src="img/ping-pong.png" alt="bat icon" /></li>
+          <li class= "active"><a>Let's Play</a></li>
+          <li class= "active" id="gameRules"><a href="#">Rules</a></li>
+          <li class= "active" id="About"><a href="#">About</a></li>
+        </ul>
+      </div>
+    <div class="container-fluid">
+
+      <div class="well">
+        <form id="gameplay" >
+          <div class="form-group">
+            <label for="inputNumber"></label>
+            <input type="text" name="name" id="inputNumber" required="" placeholder="Numbers only!">
+          </div>
+
+          <button type="submit" name="button" class="btn btn-success">Ping Pong!!!</button>
+        </form>
+      </div>
+      <div id="display">
+        <h1></h1>
+        <h3></h3>
+        <ul class=""></ul>
       </div>
     </div>
   </body>
