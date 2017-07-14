@@ -1,10 +1,11 @@
 #display{
   display: none;
-  color: #b30059;
+  color: #b3ffff;
 }
 
 body{
   background-color:  #66ffcc;
+  background: linear-gradient(#ff6699, blue);
 }
 
 #ball{
@@ -25,11 +26,15 @@ body{
 }
 
 h1{
-  color: blue;
+  color: #b3ffff;
 }
 
-#rules{
+#gameRules{
   color: #000099;
+}
+
+.about:visited{
+  color: green;
 }
 
 h3{
@@ -38,10 +43,11 @@ h3{
 
 #rules-text{
   font-weight: bold;
+  color: #b3ffff;
 }
 
 .about{
-  color: #000099;
+  color: #b3ffff;
   display: none;
   margin-left: 20px;
 }
