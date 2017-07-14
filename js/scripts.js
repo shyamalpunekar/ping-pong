@@ -1,8 +1,8 @@
 
 // business interface
 var pingPong = function(inputNumber) {
-var playOutcome = pingPong.map(function(inputNumber) {
-  for(index = 0; index < inputNumber; index++){
+var playOutcome = [];
+  for(index = 0; index <= inputNumber; index++){
     if(index % 3 === 0 && index % 15 !== 0){
       playOutcome.push("Ping");
     } else if (index % 5 === 0 && index % 15 !== 0) {
@@ -10,11 +10,10 @@ var playOutcome = pingPong.map(function(inputNumber) {
     } else if (index % 15 === 0) {
       playOutcome.push("Ping-Pong");
     } else {
-      playOutcome.push(inputNumber);
+      playOutcome.push(index);
     }
     }
-    return inputNumber;
-})
+    return playOutcome;
 }
 
 // User interface
@@ -22,9 +21,9 @@ $(document).ready(function() {
   $("#gameplay").submit(function(event) {
     event.preventDefault();
     var inputNumber = parseInt($("#inputNumber").val());
-    var outputNumber = pingPong(inputNumber);
-      for(index=0; index<inputNumber; inputNumber++){
-        $("#displayOutput").append("<li>" + outputNumber[i] + "</li>");
+    var output = pingPong(inputNumber);
+      for(index = 0; index <= inputNumber; index++){
+        $("ul#displayOutput").append("<li>" + output[index] + "</li>");
       }
   });
 
