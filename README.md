@@ -13,7 +13,7 @@ Create a web application that takes a number from a user and returns a range of 
 
 
 ## Specifications
-_Specs from Ping Pong
+Specs from Ping Pong
 
 * It can count up to provided number
   Input Example: 2
