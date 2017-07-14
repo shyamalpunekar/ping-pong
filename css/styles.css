@@ -15,6 +15,10 @@ body{
   border-color: #808080;
 }
 
+.nav nav-pills{
+  display: inline;
+}
+
 #mini-ball {
   width: auto;
   height: 50px;
@@ -39,4 +43,9 @@ h3{
 .about{
   color: #000099;
   display: none;
+  margin-left: 20px;
+}
+
+.about:hover{
+  color: red;
 }
